@@ -19,11 +19,7 @@
 
 ## 0.0.343 - 2025-10-16
 
-- ```
-  Added new model:
-  Run slash model to equip
-  Haiku 4.5.
-  ```
+- Added new model: Run `/model` to equip Haiku 4.5
 - Added a flag to augment MCP server configuration to temporarily add or override server configuration per session:  `--additional-mcp-config` (fixes https://github.com/github/copilot-cli/issues/288)
 	- You can pass MCP server configuration in two ways:
 		- Inline JSON: `copilot --additional-mcp-config '{"mcpServers": {"my-tool": {...}}}'`
