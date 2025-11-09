@@ -1,3 +1,10 @@
+## 0.0.347 - 2025-11-09
+
+- Added comprehensive `.gitignore` file to exclude IDE and build artifacts
+- Improved repository hygiene by ignoring JetBrains IDE files (`.idea/`)
+- Added ignore patterns for Node.js dependencies, build outputs, and temporary files
+- Fixed changelog formatting issues in version 0.0.343
+
 ## 0.0.346 - 2025-10-19
 
 - Fixed a bug where model sourced from configuration file was not accounted for correctly in estimating premium request usage
